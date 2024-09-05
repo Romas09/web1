@@ -1,0 +1,57 @@
+/* Стили для табов */
+.nav-pills .nav-link {
+    color: #05a11a !important; /* Цвет текста */
+    background-color: black; /* Цвет фона */
+    border-color: green !important; /* Цвет границы */
+}
+.n{border: 0px solid rgb(1, 155, 24) !important;}
+.n:hover{border: 0px solid rgb(1, 155, 24) !important;}
+.nav-link:focus, .nav-link:hover{border-radius: 20px;
+    color: green !important;
+    background-color: rgba(0, 0, 0, 0.91);}
+
+/* Стили для активного таба */
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {border-radius: 5px !important;
+    color: black; /* Цвет текста */
+    background-color: white; /* Цвет фона */
+    border: 0px solid rgb(1, 155, 24) !important; /* Цвет границы */
+}
+.nav-link{ color: #026507 !important;
+    background-color: black !important;
+    border: 0px solid rgb(1, 155, 24) !important;
+    border-radius: 5px!important;
+}
+li{margin-right: .5rem !important;}
+.nav-tabs{border-bottom: 0px}
+.textcolor{color: #ff0000 !important;}
+
+.nav-tabs .nav-item .nav-link.active {border-radius: 5px!important;
+    color: #026507 !important;
+    background-color: #000000!important;
+    border: 0px solid rgb(1, 155, 24) !important;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.14);
+}
+
+
+/*button*/
+.button {
+    background-color: rgba(0, 0, 0, 0.35) !important;
+}
+@media (min-width: 576px) {
+    .my-modal .modal-dialog {
+        max-width: 500px;
+    }
+}
+@media (min-width: 900px) {
+    .my-modal .modal-dialog {
+        max-width: 850px;
+    }
+}
+.text{font-family: "Times New Roman";font-weight: bold;color: #39b44a;
+    transition: color 0.3s ease;
+}
+.text:hover{color: #2c7103
+}

@@ -1,0 +1,79 @@
+
+
+
+
+.sky-neon {
+    color: gray;
+    background-color: #2F005F;
+    -webkit-transition: .3s all ease-in;
+    transition: .3s all ease-in;
+    border: 2px solid transparent;
+}
+.sky-neon:hover, .sky-neon:focus {
+    -webkit-box-shadow: 0px 0px 20px 15px #0024E0;
+    box-shadow: 0px 0px 30px 20px #0024E0;
+    background-color: #46008B;
+}
+.neonitem {
+    text-align: center;
+    color: gray;
+    font-family: raleway;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 12px;
+    border-bottom: 1px solid #86dbff;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: #3cffed;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #03a9f4, 0 0 40px #03a9f4, 0 0 50px #03a9f4, 0 0 60px #03a9f4, 0 0 70px #03a9f4;
+}
+.divCardbody{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.42);
+    box-shadow: 5px 6px 4px rgba(0, 0, 0, 0.25), inset 3px 3px 4px rgba(0, 0, 0, 0.25), inset -3px -3px 4px rgba(0, 0, 0, 0.22);
+    transition: 0.5s ease-in-out;
+}
+
+.divCardbody:hover{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.42);
+    box-shadow: 5px 6px 4px rgba(0, 0, 0, 0.25), inset 3px 3px 4px rgba(0, 0, 0, 0.25), inset -3px -3px 4px rgba(0, 0, 0, 0.22);
+}
+
+.text1{
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 121%;
+    color: #000000;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text3{
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 77px;
+    color: #0619BE;
+    text-shadow: 5px 7px 4px rgba(0, 41, 254, 0.29);
+}
+.text2{
+    font-family: 'DotGothic16';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 121%;
+    color: #000000;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rotate{
+    transform: rotate(0deg);
+    transition: .3s all ease-in;
+}
+.rotate:hover{
+    transform: rotate(5deg);
+}
